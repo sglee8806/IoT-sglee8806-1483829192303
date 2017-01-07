@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-sglee8806
+  host: IoT-sglee8806
+  disk_quota: 1024M
+  services:
+  - IoT-sglee8806-cloudantNoSQLDB
+  - IoT-sglee8806-iotf-service
